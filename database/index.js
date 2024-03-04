@@ -6,7 +6,7 @@ const config = {
   port: 3306,
   database: 'coronaboard',
   user: 'coronaboard_admin',
-  password: process.env.CORONABOARD_MYSQL_PASSWORD || 'Frog0725!',
+  password: process.env.CORONABOARD_MYSQL_PASSWORD,
 };
 
 // Sequelize instance
